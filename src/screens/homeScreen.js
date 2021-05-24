@@ -1,11 +1,12 @@
 import React from 'react'
+import CarouselComponent from '../components/CaouselComponent'
 
-const homeScreen = () => {
+const HomeScreen = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+           <CarouselComponent /> 
+        </>
     )
 }
 
-export default homeScreen
+export default HomeScreen
