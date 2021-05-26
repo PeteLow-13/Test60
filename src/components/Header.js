@@ -30,13 +30,19 @@ const Header = () => {
 
               <LinkContainer to='/business'>
                 <Nav.Link>
-                  <i className='fas fa-compass'></i>Business
+                  <i className='fas fa-cash-register'></i>Business
                 </Nav.Link>
               </LinkContainer>
 
               <LinkContainer to='/ferries'>
                 <Nav.Link>
                   <i className='fas fa-ship'></i>Ferries
+                </Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to='/video'>
+                <Nav.Link>
+                  <i className='fas fa-photo-video'></i>Videos
                 </Nav.Link>
               </LinkContainer>
 

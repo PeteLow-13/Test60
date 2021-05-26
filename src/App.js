@@ -9,6 +9,7 @@ import FerriesScreen from './screens/FerriesScreen';
 import PlacesScreen from './screens/PlacesScreen';
 import LocationScreen from './screens/LocationScreen';
 import BusinessScreen from './screens/BusinessScreen';
+import VideoScreen from './screens/VideoScreen';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
         <main className='py-3'>
           <Route path='/' component={HomeScreen} exact />
           <Route path='/places' component={PlacesScreen} />
+          <Route path='/places' component={PlacesScreen} />
           <Route path='/location' component={LocationScreen} />
-          <Route path='/business' component={BusinessScreen} />
+          <Route path='/video' component={VideoScreen} />
           <Route path='/ferries' component={FerriesScreen} />
           <Route path='/about' component={AboutScreen} />
           <Route path='/contact' component={ContactScreen} />
