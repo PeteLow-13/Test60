@@ -8,7 +8,10 @@ const Header = () => {
       <Navbar bg='light' variant='light' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>POG</Navbar.Brand>
+            <Navbar.Brand>
+              {/* P<i className='fas fa-compass'></i>G */}
+              Point <i className='fas fa-compass'></i>f Going
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
@@ -16,6 +19,18 @@ const Header = () => {
               <LinkContainer to='/places'>
                 <Nav.Link>
                   <i className='fas fa-compass'></i>Places
+                </Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to='/location'>
+                <Nav.Link>
+                  <i className='fas fa-compass'></i>Location
+                </Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to='/business'>
+                <Nav.Link>
+                  <i className='fas fa-compass'></i>Business
                 </Nav.Link>
               </LinkContainer>
 
