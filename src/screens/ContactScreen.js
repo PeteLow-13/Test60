@@ -1,14 +1,14 @@
-import React from 'react'
-import Contact from '../components/Contact'
-import EmailForm from '../components/EmailForm'
+import React from 'react';
+import Contact from '../components/Contact';
+import EmailForm from '../components/EmailForm';
 
 const ContactScreen = () => {
-    return (
-        <>
-          <Contact />
-           <EmailForm /> 
-        </>
-    )
-}
+  return (
+    <>
+      <Contact />
+      <EmailForm />
+    </>
+  );
+};
 
-export default ContactScreen
+export default ContactScreen;

@@ -9,8 +9,8 @@ const Header = () => {
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>
-              {/* P<i className='fas fa-compass'></i>G */}
-              Point <i className='fas fa-compass'></i>f Going
+              P<i className='fas fa-compass'></i>G
+              {/* Point <i className='fas fa-compass'></i>f Going */}
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
