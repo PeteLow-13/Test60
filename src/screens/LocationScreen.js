@@ -9,9 +9,9 @@ const LocationScreen = () => {
         height='485'
         src='https://www.youtube.com/embed/5BHBZr3OuRQ'
         title='YouTube video player'
-        frameborder='0'
+        frameBorder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-        allowfullscreen
+        allowFullScreen
       ></iframe>
       <h2>Location Screen</h2>
       <h3>About the location</h3>

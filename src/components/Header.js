@@ -30,7 +30,7 @@ const Header = () => {
 
               <LinkContainer to='/business'>
                 <Nav.Link>
-                  <i className='fas fa-cash-register'></i>Business
+                  <i className='fas fa-cash-register'></i>Businesses
                 </Nav.Link>
               </LinkContainer>
 

@@ -13,9 +13,9 @@ const BusinessScreen = () => {
         height='288'
         src='https://www.youtube.com/embed/nLMqm0EGq6A'
         title='YouTube video player'
-        frameborder='0'
+        frameBorder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-        allowfullscreen
+        allowFullScreen
       ></iframe>
       <h3>About ______ Business</h3>
       <Row>
